@@ -12,5 +12,5 @@ def newdeploy(ip,appname)
 }
 def runselinium(path)
 {
-  sh "jav -jar $path/testing.jar"
+  sh "java -jar $path/testing.jar"
 }
